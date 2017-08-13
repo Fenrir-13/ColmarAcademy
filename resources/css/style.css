@@ -1,0 +1,149 @@
+/* Universal Settings */
+html {
+  font-family: Helvetica;
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 64px;
+  top: 0;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  z-index: 5;
+}
+
+header div {
+  padding-left: 24px;
+}
+
+header nav {
+  padding-right: 24px;
+}
+
+nav ul li {
+  display: inline;
+  font-size: 1.5rem;
+  padding-left: 16px;
+  text-align: center;
+  padding: 0.5rem .9rem;
+}
+
+nav ul li:last-child {
+  background-color:midnightblue;
+  color:white;
+  border-radius: 100px;
+  padding: 0.5rem .9rem;
+}
+
+nav ul li:hover {
+  background-color: orange;
+  color: white;
+  border-radius: 100px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+nav ul li:last-child:hover{
+  background-color:#337ab7;
+  border-radius: 100px;
+  padding: 0.5rem .9rem;
+}
+
+table {
+    width: 100%;
+}
+
+/* Classes */
+.logo {
+  display:flex;
+  align-items: center;
+}
+
+.logo img{
+  height:4rem;
+}
+
+.logo a{
+  font-size:2rem;
+}
+
+.wrapperG {
+  background-color:lightgrey;
+  padding: 32px 24px;
+}
+
+.wrapperY {
+  background-color:lightgoldenrodyellow;
+  padding: 32px 24px;
+}
+
+.learn img {
+  width: 100%;
+}
+
+.learn h1, p, div {
+  padding: 1rem 1.5rem;
+}
+
+.learn h1 {
+  font-size:3rem;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+.learn p {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #4a4a4a;
+}
+
+.button {
+  width: 80%;
+  margin: 0 auto;
+  background-color:#4C4443;
+  color:white;
+  text-align: center;
+  padding: 1rem 1rem;
+}
+
+.button span {
+  font-size: 1rem;
+}
+
+.button:hover {
+  background-color: #8E7956;
+  cursor: pointer;
+}
+
+.mobile {
+  display: none;
+}
+
+/* Header Section - Mobile */
+@media only screen and (max-width: 760px) {
+  .mobile {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .desktop {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+}
+
+/* ID(s) */
+#emphasis {
+  font-weight:600;
+}
+
+#litegrey {
+  color:grey;
+  font-weight:200;
+}
