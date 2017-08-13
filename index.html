@@ -9,6 +9,8 @@
   <link href="./resources/css/fonts.css" type="text/css" rel="stylesheet">
   <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
   <link href="./resources/css/styleMobile.css" type="text/css" rel="stylesheet">
+
+  <script type="text/javascript" src="./resources/javascript/script.js"></script>
 </head>
 
 <body>
@@ -24,10 +26,10 @@
 
     <nav class="desktop" nowrap>
       <ul>
-        <li>On campus</li>
-        <li>Online</li>
-        <li>For Companies</li>
-        <li>Sign in</li>
+        <li onMouseOver="show('campus')" onMouseOut="hide('campus')">On campus</li>
+        <li onMouseOver="show('online')" onMouseOut="hide('online')">Online</li>
+        <li onMouseOver="show('company')" onMouseOut="hide('company')">For Companies</li>
+        <li onMouseOver="show('signin')" onMouseOut="hide('signin')">Sign in</li>
       </ul>
     </nav>
 
@@ -40,6 +42,8 @@
       </ul>
     </nav>
   </header>
+
+  <div id="AbraCadabra" style="visibility:hidden;">&nbsp;</div>
 
   <!-- First body Section - learn something new everyday -->
   <div class="desktop learn wrapperG" style="margin-top:64px;">

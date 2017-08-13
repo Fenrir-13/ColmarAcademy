@@ -8,6 +8,7 @@
 
   header nav ul li:hover {
     background-color: orange;
+    transition: background-color 500ms ease-in;
     color: white;
     border-radius: 100px;
     font-weight: bold;
@@ -20,8 +21,15 @@
     padding: 0.5rem .9rem;
   }
 
+  footer a:hover {
+    font-weight: bold;
+    text-decoration: italic;
+    color: purple;
+  }
+
   .button:hover {
     background-color: #8E7956;
+    transition: background-color 300ms ease-in-out 20ms;
     cursor: pointer;
   }
 
