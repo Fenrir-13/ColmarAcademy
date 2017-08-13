@@ -1,29 +1,41 @@
 @media only screen and (min-width: 760px) {
-    nav ul li:last-child {
+  nav ul li:last-child {
     background-color:midnightblue;
     color:white;
     border-radius: 100px;
     padding: 0.5rem .9rem;
-    }
+  }
 
-    nav ul li:hover {
+  nav ul li:hover {
     background-color: orange;
     color: white;
     border-radius: 100px;
     font-weight: bold;
     cursor: pointer;
-    }
+  }
 
-    nav ul li:last-child:hover{
+  nav ul li:last-child:hover{
     background-color:#337ab7;
     border-radius: 100px;
     padding: 0.5rem .9rem;
-    }
+  }
 
-    .button:hover {
+  .button:hover {
     background-color: #8E7956;
     cursor: pointer;
-    }
+  }
+
+  .practice a:hover {
+    color: red;
+  }
+
+  .practice td table tr:nth-child(1n + 3) {
+    background-color:lightgrey;
+  }
+
+  .practice td table tr:hover {
+    background-color:mistyrose;
+  }
 }
 
 @media only screen and (max-width: 760px) {

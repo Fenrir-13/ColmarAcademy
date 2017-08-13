@@ -37,6 +37,27 @@ table {
   width: 100%;
 }
 
+h1 {
+  font-size: 3rem;
+  font-size: 4vw; 
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+h2 {
+  font-size: 2rem;
+  font-size: 3vw; 
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-size: 2.5vw; 
+  font-weight: 400;
+  color: #4a4a4a;
+}
+
 /* Classes */
 .logo {
   display:flex;
@@ -61,28 +82,93 @@ table {
   padding: 32px 24px;
 }
 
-.learn img {
+.learn img, .practice img, .courses img {
   width: 100%;
 }
 
 .learn h1, .learn h3, .learn div {
   padding: 1rem 1.5rem;
-}
-
-.learn h1 {
-  font-size: 3em;
-  font-size: 4vw; 
-  font-weight: 700;
-  color: #4a4a4a;
   text-align: center;
 }
 
-.learn h3 {
-  font-size: 1.5rem;
-  font-size: 2.5vw; 
-  font-weight: 400;
-  color: #4a4a4a;
+.practice h2 {
+  padding-top: 2rem;
+}
+
+.practice p {
+  padding: 1rem 0;
+}
+
+.practice td table img {
+  padding: 1rem 1rem;
+}
+
+.practice a {
+  color: blue;
+}
+
+.courses h2 {
   text-align: center;
+  padding-bottom: 2rem;
+}
+
+.courses .row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  padding: 0 3rem;
+}
+
+.course  {
+  background-color: white;
+  margin: 0 1rem;
+  width: 100%;
+}
+
+.course .tile {
+  background-size: cover;
+  height: 0;
+  padding-top: 50%;
+}
+
+.software .tile {
+  background-image: url("../images/course-software.jpg");
+}
+
+.computer-art .tile {
+  background-image: url("../images/course-computer-art.jpg");
+}
+
+.design .tile {
+  background-image: url("../images/course-design.jpg");
+}
+
+.data .tile {
+  background-image: url("../images/course-data.jpg");
+}
+
+.business .tile {
+  background-image: url("../images/course-business.jpg");
+}
+
+.marketing .tile {
+  background-image: url("../images/course-marketing.jpg");
+}
+
+.details h3 {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.details h4 {
+  padding-top: .5rem;
+  padding-left: 1rem;
+  color: #404243;
+  margin: .5rem 0;
+}
+
+.details p {
+  padding: .5rem 0 1.5rem 1rem;
 }
 
 .button {
