@@ -1,12 +1,12 @@
 @media only screen and (min-width: 760px) {
-  nav ul li:last-child {
+  header nav ul li:last-child {
     background-color:midnightblue;
     color:white;
     border-radius: 100px;
     padding: 0.5rem .9rem;
   }
 
-  nav ul li:hover {
+  header nav ul li:hover {
     background-color: orange;
     color: white;
     border-radius: 100px;
@@ -14,7 +14,7 @@
     cursor: pointer;
   }
 
-  nav ul li:last-child:hover{
+  header nav ul li:last-child:hover{
     background-color:#337ab7;
     border-radius: 100px;
     padding: 0.5rem .9rem;
@@ -33,7 +33,11 @@
     background-color:lightgrey;
   }
 
-  .practice td table tr:hover {
+  .thesis td table tr:nth-child(2n + 1) {
+    background-color:lightgrey;
+  }
+
+  .practice td table tr:hover, .thesis td table tr:hover {
     background-color:mistyrose;
   }
 }

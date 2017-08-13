@@ -58,6 +58,21 @@ h3 {
   color: #4a4a4a;
 }
 
+footer {
+  border-top: 1px solid lightgrey;
+  background-color:#fffef9;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .copyright {
+  padding: 1rem 0 0 1.5rem;
+}
+
+footer nav {
+  padding: 1rem 1.5rem 0 0;
+}
+
 /* Classes */
 .logo {
   display:flex;
@@ -82,7 +97,7 @@ h3 {
   padding: 32px 24px;
 }
 
-.learn img, .practice img, .courses img {
+.learn img, .practice img, .courses img, .thesis img {
   width: 100%;
 }
 
@@ -95,11 +110,11 @@ h3 {
   padding-top: 2rem;
 }
 
-.practice p {
+.practice p, .thesis p {
   padding: 1rem 0;
 }
 
-.practice td table img {
+.practice td table img, .thesis td table img {
   padding: 1rem 1rem;
 }
 
@@ -129,6 +144,19 @@ h3 {
   background-size: cover;
   height: 0;
   padding-top: 50%;
+}
+
+.thesis h2 {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.thesis h3 {
+  padding-top: 1.5rem;
+}
+
+.thesis p {
+  padding: .5rem 0 2rem 0;
 }
 
 .software .tile {
