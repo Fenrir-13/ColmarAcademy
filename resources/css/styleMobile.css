@@ -1,0 +1,70 @@
+@media only screen and (min-width: 760px) {
+    nav ul li:last-child {
+    background-color:midnightblue;
+    color:white;
+    border-radius: 100px;
+    padding: 0.5rem .9rem;
+    }
+
+    nav ul li:hover {
+    background-color: orange;
+    color: white;
+    border-radius: 100px;
+    font-weight: bold;
+    cursor: pointer;
+    }
+
+    nav ul li:last-child:hover{
+    background-color:#337ab7;
+    border-radius: 100px;
+    padding: 0.5rem .9rem;
+    }
+
+    .button:hover {
+    background-color: #8E7956;
+    cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+  nav ul {
+    width:100%;
+    text-align:center;
+  }
+
+  nav ul li {
+    width:25%;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .wrapperG {
+    background-color:lightgrey;
+  }
+
+  .wrapperY {
+    background-color:#fffef9;
+  }
+
+  .learn img {
+    width: 100%;
+  }
+
+  .button {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
