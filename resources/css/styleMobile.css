@@ -32,6 +32,14 @@
     transition: background-color 300ms ease-in-out 20ms;
     cursor: pointer;
   }
+  
+  .button:hover #start {
+    display:none;
+  }
+
+  .button:hover #go {
+    display:inline;
+  }
 
   .practice a:hover {
     color: red;

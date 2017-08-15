@@ -9,6 +9,7 @@
   <link href="./resources/css/fonts.css" type="text/css" rel="stylesheet">
   <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
   <link href="./resources/css/styleMobile.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
 
   <script type="text/javascript" src="./resources/javascript/script.js"></script>
 </head>
@@ -18,14 +19,15 @@
   <header>
     <div class="desktop logo">
       <img src="./resources/images/ic-logo.svg" alt="Lion UpHolding" />
+
       <a href="index.html" class="desktop logo">
         <span id="emphasis">COLMAR</span>
-        <span id="litegrey">ACADEMY</span>
+        <span id="litegrey">ACADEMY</span><i class="fa fa-laptop"></i>
        </a>
     </div>
 
     <nav class="desktop" nowrap>
-      <ul>
+      <ul role="presentation">
         <li onMouseOver="show('campus')" onMouseOut="hide('campus')">On campus</li>
         <li onMouseOver="show('online')" onMouseOut="hide('online')">Online</li>
         <li onMouseOver="show('company')" onMouseOut="hide('company')">For Companies</li>
@@ -34,7 +36,7 @@
     </nav>
 
     <nav class="mobile">
-      <ul>
+      <ul role="presentation">
         <li><img src="./resources/images/ic-logo.svg" alt="Lion UpHolding"></li>
         <li><img src="./resources/images/ic-on-campus.svg" alt="Campus"></li>
         <li><img src="./resources/images/ic-online.svg" alt="Online"></li>
@@ -46,8 +48,8 @@
   <div id="AbraCadabra" style="visibility:hidden;">&nbsp;</div>
 
   <!-- First body Section - learn something new everyday -->
-  <div class="desktop learn wrapperG" style="margin-top:64px;">
-      <table>
+  <div class="desktop learn wrapperG" style="margin-top:64px;" aria-label="Main Body, Section 1 of 4">
+      <table role="presentation">
           <tr>
               <td style="width:60%;padding-right:24px;">
                 <img src="./resources/images/banner.jpg" alt="Study Group">
@@ -58,7 +60,8 @@
                 <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
 
                 <div class="button">
-                  <span>Start here</span>
+                  <span id="start">Start here</span>
+                  <span id="go">Go anywhere!</span>
                 </div>
               </td>
           </tr>
@@ -70,7 +73,7 @@
   </div>
 
   <div class="mobile learn wrapperG">
-      <table>
+      <table role="presentation">
           <tr>
               <td style="vertical-align:middle;">
                 <h1>Learn something new everyday</h1>
@@ -86,8 +89,8 @@
   </div>
 
   <!-- Second body Section - it doesn't hurt to keep practicing -->
-  <div class="desktop practice wrapperY">
-      <table>
+  <div class="desktop practice wrapperY" aria-label="Main Body, Section 2 of 4">
+      <table role="presentation">
           <tr>
               <td style="width:60%;padding-right:24px;">
                 <img src="./resources/images/information-main.jpg" alt="Self-Study">
@@ -102,7 +105,7 @@
                 <p class="caption">Emanuel, Sr Strategist at Hiring.com</p>
               </td>
               <td style="width:40%;vertical-align:top;">
-                <table>
+                <table role="presentation">
                   <tr>
                     <td style="width:35%;">
                       <img src="./resources/images/information-orientation.jpg" alt="Orientation" />
@@ -146,7 +149,7 @@
   </div>
 
   <!-- Third body Section - start learning -->
-  <div class="desktop courses wrapperG">
+  <div class="desktop courses wrapperG" aria-label="Main Body, Section 3 of 4">
       <h2>Start Learning</h2>
 
       <!-- Top Row -->
@@ -212,10 +215,10 @@
   </div>
 
   <!-- fourth body Section - thesis exhibit -->
-  <div class="desktop thesis wrapperY">
+  <div class="desktop thesis wrapperY" aria-label="Main Body, Section 4 of 4">
       <h2>Thesis exhibit</h2>
 
-      <table>
+      <table role="presentation">
           <tr>
               <td style="width:60%;padding-right:24px;">
                 <video src="resources/videos/thesis.mp4" width="100%" height="auto" autoplay loop>
@@ -230,7 +233,7 @@
                 </p>
               </td>
               <td style="width:40%;vertical-align:top;">
-                <table>
+                <table role="presentation">
                   <tr>
                     <td style="width:35%;">
                       <img src="./resources/images/thesis-fisma.jpg" alt="Design Process" />
@@ -264,7 +267,7 @@
     </div>
 
     <nav>
-      <ul>
+      <ul role="presentation">
         <li><a href="#" title="Terms">Terms</a></li>
         <li><a href="#" title="Privacy">Privacy</a></li>
       </ul>

@@ -242,3 +242,7 @@ footer nav ul li {
   font-weight: bold;
   z-index: 6;
 }
+
+#go {
+  display:none;
+}
