@@ -56,16 +56,25 @@
   .practice td table tr:hover, .thesis td table tr:hover {
     background-color:mistyrose;
   }
+  
+  .course:hover {
+    box-shadow: 5px 5px 3px 0 rgba(0, 0, 0, 0.3);
+  }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 760px) {  
   nav ul {
-    width:100%;
-    text-align:center;
+    display: flex;
+    justify-content: space-around;
   }
 
-  nav ul li {
-    width:25%;
+  nav ul li img:hover{
+    background-color: lightgrey;
+    box-shadow: 0 0 20px grey;
+  }
+  
+  header .mobile {
+    display: block;
   }
 
   .desktop {
@@ -77,6 +86,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  
+  .button:hover {
+    background-color: #8E7956;
+    transition: background-color 300ms ease-in-out 20ms;
+  }
+  
+  .button:hover #start {
+    display:none;
+  }
+
+  .button:hover #go {
+    display:inline;
   }
 
   .logo {
