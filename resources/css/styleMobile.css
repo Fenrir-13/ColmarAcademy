@@ -1,15 +1,15 @@
 @media only screen and (min-width: 760px) {
   header nav ul li:last-child {
-    background-color:midnightblue;
-    color:white;
+    background-color:#191970;
+    color:#ffffff;
     border-radius: 100px;
     padding: 0.5rem .9rem;
   }
 
   header nav ul li:hover {
-    background-color: orange;
+    background-color: #ff9966;
     transition: background-color 500ms ease-in;
-    color: white;
+    color: #ffffff;
     border-radius: 100px;
     font-weight: bold;
     cursor: pointer;
@@ -24,7 +24,7 @@
   footer a:hover {
     font-weight: bold;
     text-decoration: italic;
-    color: purple;
+    color: #800080;
   }
 
   .button:hover {
@@ -42,19 +42,19 @@
   }
 
   .practice a:hover {
-    color: red;
+    color: #ff0000;
   }
 
   .practice td table tr:nth-child(1n + 3) {
-    background-color:lightgrey;
+    background-color:#d3d3d3;
   }
 
   .thesis td table tr:nth-child(2n + 1) {
-    background-color:lightgrey;
+    background-color:#d3d3d3;
   }
 
   .practice td table tr:hover, .thesis td table tr:hover {
-    background-color:mistyrose;
+    background-color:#ffe4e1;
   }
   
   .course:hover {
@@ -69,8 +69,8 @@
   }
 
   nav ul li img:hover{
-    background-color: lightgrey;
-    box-shadow: 0 0 20px grey;
+    background-color: #d3d3d3;
+    box-shadow: 0 0 20px #808080;
   }
   
   header .mobile {
@@ -85,9 +85,9 @@
   }
   
   footer {
-    background-color:white;
+    background-color:#ffffff;
     padding: 1rem 0;
-    border: 0px solid white;
+    border: 0px solid #ffffff;
   }
 
   video {
@@ -123,7 +123,7 @@
   }
 
   .wrapperG {
-    background-color:lightgrey;
+    background-color:#d3d3d3;
   }
 
   .wrapperY {
@@ -131,7 +131,7 @@
   }
 
   .learn {
-    background-color:lightgrey;
+    background-color:#d3d3d3;
   }
 
   .learn img {
@@ -166,7 +166,7 @@
   .course-blocks {
      display: block;
      align-items: center;
-     background-color: lightgrey;
+     background-color: #d3d3d3;
      font-size: 1.3rem;
      font-weight: 600;
      width: 80%;
@@ -175,8 +175,8 @@
    }
   
    .course-blocks:hover {
-     background-color: darkcyan;
-     color: white;
+     background-color: #008b8b;
+     color: #ffffff;
      transition: background-color 300ms ease-in, color 200ms linear;
    }
    
