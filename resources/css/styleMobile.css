@@ -77,6 +77,23 @@
     display: block;
   }
 
+  img {
+    max-width: 100%;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  footer {
+    background-color:white;
+    padding: 1rem 0;
+    border: 0px solid white;
+  }
+
+  video {
+    padding-bottom: 1.5rem;
+  }
+
   .desktop {
     display: none;
   }
@@ -121,4 +138,46 @@
     width: 50%;
     margin: 0 auto;
   }
+
+  .practice .vertical {
+    padding: 16px 16px;
+  }
+
+  .practice .indent {
+    padding: 32px 16px;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .column h1 {
+    font-size: 2rem;
+    padding: 2rem 1rem;
+  }
+  
+  .course-blocks {
+     display: block;
+     align-items: center;
+     background-color: lightgrey;
+     font-size: 1.3rem;
+     font-weight: 600;
+     width: 80%;
+     padding: 1rem;
+     margin: 0 auto .5rem auto;
+   }
+  
+   .course-blocks:hover {
+     background-color: darkcyan;
+     color: white;
+     transition: background-color 300ms ease-in, color 200ms linear;
+   }
+   
+   .thesis h1 {
+     font-size: 2rem;
+     padding: 2rem 0 1rem 0;
+   }
 }
