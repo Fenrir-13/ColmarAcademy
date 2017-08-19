@@ -1,7 +1,7 @@
 @media only screen and (min-width: 760px) {
   header nav ul li:last-child {
-    background-color:#191970;
-    color:#ffffff;
+    background-color: #191970;
+    color: #ffffff;
     border-radius: 100px;
     padding: 0.5rem .9rem;
   }
@@ -16,7 +16,7 @@
   }
 
   header nav ul li:last-child:hover{
-    background-color:#337ab7;
+    background-color: #337ab7;
     border-radius: 100px;
     padding: 0.5rem .9rem;
   }
@@ -34,11 +34,11 @@
   }
   
   .button:hover #start {
-    display:none;
+    display: none;
   }
 
   .button:hover #go {
-    display:inline;
+    display: inline;
   }
 
   .practice a:hover {
@@ -46,19 +46,23 @@
   }
 
   .practice td table tr:nth-child(1n + 3) {
-    background-color:#d3d3d3;
+    background-color: #d3d3d3;
   }
 
   .thesis td table tr:nth-child(2n + 1) {
-    background-color:#d3d3d3;
+    background-color: #d3d3d3;
   }
 
   .practice td table tr:hover, .thesis td table tr:hover {
-    background-color:#ffe4e1;
+    background-color: #ffe4e1;
   }
   
   .course:hover {
     box-shadow: 5px 5px 3px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  .translucent:hover {
+    opacity: .9;
   }
 }
 
@@ -123,15 +127,15 @@
   }
 
   .wrapperG {
-    background-color:#d3d3d3;
+    background-color: #d3d3d3;
   }
 
   .wrapperY {
-    background-color:#fffef9;
+    background-color: #fffef9;
   }
 
   .learn {
-    background-color:#d3d3d3;
+    background-color: #d3d3d3;
   }
 
   .learn img {
@@ -140,7 +144,7 @@
 
   .button {
     width: 50%;
-    margin: 0 auto;
+    margin: 0 auto 1rem auto;
   }
 
   .practice .vertical {

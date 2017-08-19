@@ -13,4 +13,8 @@ function show(id) {
 
   function hide(id) {
     document.getElementById("AbraCadabra").style.visibility = "hidden";
-  }
+	}
+	
+function comingSoon() {
+	alert("Additional Details coming soon!");
+}

@@ -39,21 +39,18 @@ table {
 
 h1 {
   font-size: 3rem;
-  font-size: 4vw; 
   font-weight: 700;
   color: #4a4a4a;
 }
 
 h2 {
   font-size: 2rem;
-  font-size: 3vw; 
   font-weight: 700;
   color: #4a4a4a;
 }
 
 h3 {
   font-size: 1.5rem;
-  font-size: 2.5vw; 
   font-weight: 400;
   color: #4a4a4a;
 }
@@ -80,25 +77,25 @@ footer nav ul li {
 
 /* Classes */
 .logo {
-  display:flex;
+  display: flex;
   align-items: center;
 }
 
 .logo img {
-  height:4rem;
+  height: 4rem;
 }
 
 .logo a {
-  font-size:2rem;
+  font-size: 2rem;
 }
 
 .wrapperG {
-  background-color:#d3d3d3;
+  background-color: #d3d3d3;
   padding: 32px 24px;
 }
 
 .wrapperY {
-  background-color:#fffef9;
+  background-color: #fffef9;
   padding: 32px 24px;
 }
 
@@ -207,8 +204,8 @@ footer nav ul li {
 .button {
   width: 80%;
   margin: 0 auto;
-  background-color:#4C4443;
-  color:#ffffff;
+  background-color: #4C4443;
+  color: #ffffff;
   text-align: center;
   padding: 1rem 1rem;
 }
@@ -221,14 +218,18 @@ footer nav ul li {
   display: none;
 }
 
+.translucent {
+  opacity: 0.6;
+}
+
 /* ID(s) */
 #emphasis {
-  font-weight:600;
+  font-weight: 600;
 }
 
 #lite#808080 {
-  color:#808080;
-  font-weight:200;
+  color: #808080;
+  font-weight: 200;
 }
 
 #AbraCadabra {
